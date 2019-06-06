@@ -8,10 +8,8 @@
     "build": "vue-cli-service build ",
     "dist": "npm i && vue-cli-service build --mode test",
     "ks3": "node ks3.upload.js",
-    "git:push": "git add . && git commit -m \"build file into dist directory\" && git push",
-    "git:tag": "git tag \"uss-console-message-1.0.0-3\" && git push --tags",
-    "deploy:test": "npm run dist && npm run git:push",
-    "deploy:online": "npm run build && npm run ks3 && npm run git:push && npm run git:tag",
+    "deploy:test": "sh build.sh \"test\"",
+    "deploy:online": "sh build.sh \"online\"",
     "new:view": "node ./scripts/generateView",
     "lint": "vue-cli-service lint"
   },
