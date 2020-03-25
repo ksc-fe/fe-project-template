@@ -1,15 +1,13 @@
 # 前端项目脚手架
-USS短信管理平台
 
-## 使用方法
-git clone
-npm install
+前端项目模板，配合 kscfe-cli 脚手架使用。
 
 ##项目结构
+
 ```
 fe-project-template (vue/intact + kpc + axios)
 |
-├── public                     // index.html  
+├── public                     // index.html
 ├── dist                       // 构建输出目录
 ├── src                        // 源代码
 │   ├── assets
@@ -17,8 +15,8 @@ fe-project-template (vue/intact + kpc + axios)
 ├	|	├── images			   // 图片，字体等静态资源
 │   ├── components			   // 公用组件
 │   ├── layout
-│   ├── filters				   //filter	
-│   ├── mixin            
+│   ├── filters				   //filter
+│   ├── mixin
 |	|—— api					   // API请求
 │   ├── store                  // vuex store
 │   ├── router                 // 路由
