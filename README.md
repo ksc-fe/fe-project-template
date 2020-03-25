@@ -1,6 +1,6 @@
 # 前端项目脚手架
 
-前端项目模板，配合 kscfe-cli 脚手架使用。
+前端项目模板，配合 [kscfe-cli](https://github.com/duke-git/ksc-fe-cli) 脚手架使用。
 
 ##项目结构
 
