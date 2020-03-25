@@ -1,13 +1,12 @@
 {
-  "name": "uss-console-message",
+  "name": "fe-project-template",
   "version": "1.0.0",
-  "description": "uss短信验证管理平台",
+  "description": "前端项目模板",
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build ",
     "dist": "npm i && vue-cli-service build --mode test",
-    "ks3": "node ks3.upload.js",
     "deploy:test": "sh build.sh \"test\"",
     "deploy:online": "sh build.sh \"online\"",
     "new:view": "node ./scripts/generateView",
