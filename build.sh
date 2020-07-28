@@ -15,9 +15,9 @@ if [[ $1 == "test" ]]; then
     # git checkout dev
     git push origin dev
     echo "git autopush end..."
-elif [[ $1 == "oline" ]]
+elif [[ $1 == "online" ]]
 then
-    npm run build && npm run ks3
+    npm run build && npm run upload:static
     echo "git autopush start..."
     git add .
     git commit -m "${onlineCommitMsg}"
