@@ -1,6 +1,6 @@
 # 前端项目脚手架
 
-前端项目模板，配合 [kscfe-cli](https://github.com/ksc-fe/ksc-fe-cli) 脚手架使用。
+金山云前端控制台项目模板，配合 [kscfe-cli](https://github.com/ksc-fe/ksc-fe-cli) 脚手架使用。
 
 ##项目结构
 
@@ -29,6 +29,8 @@ fe-project-template (vue/intact + kpc + axios)
 |── test					   // 测试相关（按需创建）
 |── mock             		   // mock数据（按需创建）
 ├── .babelrc                   // babel配置
+|-- build.sh                   //部署脚本
+|-- upload_static.js           //静态资源上传脚本
 ├── eslintrc.js                // eslint 配置项
 ├── .gitignore                 // git 忽略项
 ├── vue.config.js  		   	   // webpack, proxy配置文件
