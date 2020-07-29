@@ -13,7 +13,7 @@
     "new:view": "node ./scripts/generateView",
     "lint": "vue-cli-service lint"
   },
-  "author": "dudaodong@kingsoft.com",
+  "author": "lanliddd.2007@163.com",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
