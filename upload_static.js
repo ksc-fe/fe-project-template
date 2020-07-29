@@ -5,10 +5,10 @@ let utils = require("./scripts/utils");
 let host = "xxx";
 let username = "xxx";
 let password = "xxx";
-let service = "ebs";
+let service = "xxx";
 let mod = "xxx";
 let scmToken = "xxx";
-let tarFileName = "ksc-console-ebs.tar.gz";
+let tarFileName = "ksc-console-xxx.tar.gz";
 let exec = utils.exec;
 let version = utils.generateOnlineVersion();
 

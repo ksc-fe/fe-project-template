@@ -25,7 +25,7 @@ var dateDir = new Date().YYYYMMDDHHMMSS();
 module.exports = {
   publicPath:
     process.env.NODE_ENV === "production"
-      ? "//static.ksyun.com/project/ebs/console/" + version + '"/"'
+      ? "xxxx.static.com/" + version + '"/"'
       : "",
 
   // outputDir: 在npm run build时 生成文件的目录 type:string, default:'dist'
@@ -43,12 +43,12 @@ module.exports = {
   // devServer:{type:Object} 3个属性host,port,https
   devServer: {
     port: 7070, // 端口号
-    host: "ebs.console.dev.ksyun.com",
+    host: "xxx.dev.console.com",
     https: false, // https:{type:Boolean}
     open: true, //配置自动启动浏览器
     proxy: {
-      "/i/ebs": {
-        target: "http://ebs.api.sdns.ksyun.com/",
+      "/i/xxx": {
+        target: "http://xxx.dev.api.com/",
         changeOrigin: true,
         secure: false,
       },
