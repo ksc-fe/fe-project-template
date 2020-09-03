@@ -9,14 +9,14 @@ fe-project-template (vue/intact + kpc + axios)
 |
 ├── public                     // index.html
 ├── dist                       // 构建输出目录
+|── scritp                     // vue页面生成脚本
 ├── src                        // 源代码
 │   ├── assets
 ├   │   ├── font
 ├	|	├── images			   // 图片，字体等静态资源
 │   ├── components			   // 公用组件
 │   ├── layout
-│   ├── filters				   //filter
-│   ├── mixin
+│   ├── filters				   // filter
 |	|—— api					   // API请求
 │   ├── store                  // vuex store
 │   ├── router                 // 路由
@@ -35,4 +35,6 @@ fe-project-template (vue/intact + kpc + axios)
 ├── .gitignore                 // git 忽略项
 ├── vue.config.js  		   	   // webpack, proxy配置文件
 └── package.json               // package.json
+├── README.md  		   	       // 项目说明文件
+└── RELEASE.md                 // 发布记录说明
 ```
