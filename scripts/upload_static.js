@@ -1,6 +1,6 @@
 let fs = require("fs");
 let needle = require("needle");
-let utils = require("./scripts/utils");
+let utils = require("./utils");
 
 let host = "xxx";
 let username = "xxx";
@@ -18,7 +18,7 @@ let version = utils.generateOnlineVersion();
 function tarFile() {
   //压缩dist文件
   let cmd =
-    "cd ./dist && rm -rf " +
+    "cd ../dist && rm -rf " +
     tarFileName +
     " && tar -zcf " +
     tarFileName +

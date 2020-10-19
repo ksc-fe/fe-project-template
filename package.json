@@ -7,9 +7,7 @@
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build ",
     "dist": "npm i && vue-cli-service build --mode test",
-    "deploy:test": "sh build.sh \"test\"",
-    "upload:static": "node ./upload_static.js",
-    "deploy:online": "sh build.sh \"online\"",
+    "upload:static": "node ./scripts./upload_static.js",
     "new:view": "node ./scripts/generateView",
     "lint": "vue-cli-service lint"
   },
